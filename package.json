@@ -1,0 +1,42 @@
+{
+  "name": "@goose-chartreuse/get-classname",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "files": [
+    "dist"
+  ],
+  "module": "dist/index.js",
+  "description": "A simple utility for generating class names.",
+  "keywords": [
+    "classname",
+    "utils",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goose-chartreuse/get-classname.git"
+  },
+  "bugs": {
+    "url": "https://github.com/goose-chartreuse/get-classname/issues"
+  },
+  "homepage": "https://github.com/goose-chartreuse/get-classname#readme",
+  "author": "goose-chartreuse",
+  "license": "ISC",
+  "packageManager": "pnpm@10.4.1+sha512.c753b6c3ad7afa13af388fa6d808035a008e30ea9993f58c6663e2bc5ff21679aa834db094987129aa4d488b86df57f7b634981b2f827cdcacc698cc0cfb88af",
+  "devDependencies": {
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^11.0.1",
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "semantic-release": "^24.2.3",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3"
+  }
+}
